@@ -1,6 +1,8 @@
 puts "enter the number:"
 a = gets
+p a
 a = a.chop
+p a
 a = a.to_i
 puts "enter the number:"
 b =gets
@@ -13,6 +15,3 @@ elsif b > a
 elsif a == b
 	puts "both are equal"
 end
-
-		
-		
